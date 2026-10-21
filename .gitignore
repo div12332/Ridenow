@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+server/.env
+server/.env.*
+!server/.env.example
+!server/.env.*.example
+client/.env
+client/.env.*
+!client/.env.example
+!client/.env.*.example
+
+# Build, test, and runtime output
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+*.p12
+*.pfx
